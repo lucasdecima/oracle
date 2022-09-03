@@ -1,0 +1,156 @@
+body {
+  font-family: 'Cormorant SC', serif;
+
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.733);
+  padding: 20px 0px;
+}
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 1rem;
+}
+nav li a {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav a:hover {
+  color: darksalmon;
+}
+.productos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.productos li {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  background-color: rgba(251, 251, 251, 0.833);
+  margin: 10px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4rem 1rem 4rem 1rem;
+}
+
+.productos li:hover {
+  color: darksalmon;
+}
+.productos li:active {
+  color: rgb(8, 148, 101);
+}
+.productos h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.productoDescrpcion {
+  font-size: 16px;
+  text-align: center;
+}
+
+.precio {
+  margin-top: 1rem;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer {
+  position:-ms-page;
+  width: 100%;
+  height: auto;
+  
+  background-color: snow;
+  margin: 0;
+}
+footer div {
+    display: flex;
+    justify-content: space-around;
+  
+    
+
+}
+
+footer > div p {
+  margin-top: 25px;
+  font-size: 20px;
+
+} 
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+form {
+  margin: 40px 0;
+}
+
+form  label , form legend {
+  display: block;
+  font-size: 20px; 
+  margin:0 0 20px;
+
+
+
+}
+
+.input-padron , form textarea {
+  display: block;
+  margin: 0 0 20px;
+  border-radius: 0 1rem 0 1rem;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0 ;
+}
+
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(1, 9, 15);
+  background-color: rgb(2, 192, 119);
+  border-radius:  0 1rem 0 1rem;
+  transition-duration: 0.4s;
+}
+
+.enviar:hover {
+  background-color: rgb(5, 203, 134);
+  font-size: 20px;
+  transition-duration: 0.4s;
+  
+}
+
+.logoSnatch{
+transition: 0.2s;
+box-shadow: 10px 10px 15px 5px black;
+}
+.logoSnatch:hover {
+opacity: 30%;
+}
+
+@media screen and (max-width:480px) {
+  body {
+    background-color: aqua;
+  }
+}
